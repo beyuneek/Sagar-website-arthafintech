@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 460" fill="none">
+  <!-- Replace this file with a photo if you prefer (keep the name hero.svg, or change the <img> in index.html). -->
+  <!-- back card: the property -->
+  <g transform="rotate(-6 165 220)">
+    <rect x="40" y="72" width="250" height="300" rx="10" fill="#1D5636" stroke="#35704B" stroke-width="1.5"/>
+    <g stroke="#C79A55" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M95 322V172l70-46 70 46v150"/>
+      <path d="M78 322h174"/>
+      <path d="M146 322v-46h38v46"/>
+      <path d="M124 192h18M188 192h18M124 232h18M188 232h18"/>
+    </g>
+    <rect x="66" y="344" width="92" height="7" rx="3.5" fill="#35704B"/>
+  </g>
+  <!-- front card: the report -->
+  <g transform="rotate(4 350 260)">
+    <rect x="218" y="112" width="264" height="312" rx="10" fill="#F5F1E6"/>
+    <rect x="246" y="142" width="112" height="10" rx="5" fill="#17452B"/>
+    <rect x="246" y="165" width="176" height="7" rx="3.5" fill="#D9D2BC"/>
+    <rect x="246" y="181" width="140" height="7" rx="3.5" fill="#D9D2BC"/>
+    <path d="M246 374h208" stroke="#CFC7B0" stroke-width="2" stroke-linecap="round"/>
+    <rect x="256" y="314" width="26" height="60" rx="3" fill="#17452B" fill-opacity=".45"/>
+    <rect x="296" y="289" width="26" height="85" rx="3" fill="#17452B" fill-opacity=".62"/>
+    <rect x="336" y="299" width="26" height="75" rx="3" fill="#17452B" fill-opacity=".8"/>
+    <rect x="376" y="259" width="26" height="115" rx="3" fill="#17452B"/>
+    <rect x="416" y="234" width="26" height="140" rx="3" fill="#C79A55"/>
+    <path d="M269 292 309 270 349 278 389 240 429 216" stroke="#A97B37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="429" cy="216" r="6" fill="#A97B37"/>
+    <rect x="246" y="394" width="70" height="7" rx="3.5" fill="#D9D2BC"/>
+  </g>
+  <!-- reconciled badge -->
+  <circle cx="458" cy="116" r="34" fill="#C79A55"/>
+  <path d="M443 116l10 10 20-21" stroke="#16281A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
