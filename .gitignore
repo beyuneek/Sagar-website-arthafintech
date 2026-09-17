@@ -1,0 +1,4 @@
+# never publish documents or local tool settings
+*.docx
+~$*
+.claude/

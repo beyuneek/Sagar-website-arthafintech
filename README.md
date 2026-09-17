@@ -38,10 +38,22 @@ The illustration is `assets/hero.svg`. To use a photo instead, put the photo in 
 
 There is no server. The form opens the visitor's WhatsApp or email app with their message already typed out, and they press send. Nothing is stored anywhere.
 
-## Before going live
+## Hosting
 
-1. `arthafinedge.com` still shows GoDaddy's parked page, and `www.arthafinedge.com` fails its security certificate. Both need fixing in the GoDaddy account.
-2. Add the WhatsApp number in `assets/site.js`.
-3. Upload these files to hosting (Netlify, GitHub Pages or GoDaddy hosting all work for a plain HTML site) and point the domain at it.
+The site is hosted on GitHub Pages, from the `main` branch of `beyuneek/Sagar-website-arthafintech`. The `CNAME` file tells GitHub to serve it at `arthafinedge.com`, so don't delete it.
+
+To update the live site, commit the changed files and push to `main`. GitHub rebuilds the site within a minute or two.
+
+The domain's DNS at GoDaddy must point to GitHub:
+
+| Type | Name | Value |
+|---|---|---|
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | beyuneek.github.io |
+
+Word documents in this folder are ignored by git and never published.
 
 `assets/og-image.png` is the preview picture WhatsApp, LinkedIn and Instagram show when someone shares the link.
